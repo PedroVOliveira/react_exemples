@@ -16,12 +16,12 @@ const App = () => {
         <Card>
         <img src={data?.[4]?.picture} alt="image"/>
         <OferAlert>26%</OferAlert>
-        Descrição do produto, com o máximo de duas linhas.
+        <h3>Descrição do produto, com o máximo de duas linhas.</h3>
       </Card>
       <Card>
         <img src={data?.[4]?.picture} alt="image"/>
         <OferAlert>26%</OferAlert>
-        Descrição do produto, com o máximo de duas linhas.
+        <h3>{data?.[4]?.name}</h3>
       </Card>
       </GridContainer>
     </Container>

@@ -8,7 +8,7 @@ export const base = css`
   color:#FAE800;
   position:relative;
   top:-1.0rem;
-  height:3.6rem;
+  height:36px;
   padding:1.0rem;
   box-sizing:border-box;
 
