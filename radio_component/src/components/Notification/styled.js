@@ -6,7 +6,6 @@ export const base = css`
   color: white;
   width:100%;
   height:40px;
-  position:fixed;
   display:flex;
   justify-content: space-between;
   align-items:center;

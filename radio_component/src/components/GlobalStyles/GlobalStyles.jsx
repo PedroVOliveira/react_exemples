@@ -13,10 +13,6 @@ export const GridContainer = styled.div`
   display:grid;
   grid-template-columns:50% 1fr;
 
-  img {
-    width:100%;
-  }
-
   h3 {
     max-width:80%;
     font-size:0.8rem;

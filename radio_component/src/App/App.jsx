@@ -3,6 +3,9 @@ import Card from '../components/Card';
 import OferAlert from '../components/OferAlert';
 import {Container,GridContainer} from '../components/GlobalStyles/GlobalStyles';
 import Notification from '../components/Notification';
+import ModalImage from '../components/ModalProductImage';
+import ModalProductTitle from '../components/ModalProductName';
+import ModalButton from '../components/ModalButton';
 const App = () => {
   const [data,setData] = React.useState(null);
   React.useEffect(()=> {
@@ -27,6 +30,9 @@ const App = () => {
           <h3>{data?.[4]?.name}</h3>
         </Card>
         </GridContainer>
+        <ModalImage />
+        <ModalProductTitle>Teste</ModalProductTitle>
+        <ModalButton />
       </Container>
     </>
   );
