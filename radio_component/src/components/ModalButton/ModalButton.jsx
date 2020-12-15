@@ -8,12 +8,12 @@ const Wrapper = styled.div`
   ${base}
 `;
 
-const ModalButton = () => {
+const ModalButton = ({onClickAdd,onClickRemove}) => {
   return (
     <Wrapper>
-      <Icon icon="remove" color="#72bf44" size={22}/>
+      <Icon icon="remove" color="#72bf44" size={22} onClick={onClickRemove}/>
       <span>1</span>
-      <Icon icon="add" color="#72bf44" size={22}/>
+      <Icon icon="add" color="#72bf44" size={22} onClick={onClickAdd}/>
     </Wrapper>
   );
 }
